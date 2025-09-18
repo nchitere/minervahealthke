@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minerva Online Shop: for all your superfoods, supplements, Beauty etc – Minerva ONLINE SHOP</title>
+    <meta name="description" content="A beauty & health shop, supplying its clients with a wide range of vitamins, minerals, nuts, seeds, supplements, herbal products, natural beauty products, & Many more. We do deliver at the comfort of your home/office & Nationwide. Pay on Delivery within Nairobi">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="contact-info">
+                    <span><i class="fas fa-phone"></i> 0726064506</span>
+                    <span><i class="fas fa-envelope"></i> minervahealthke@outlook.com</span>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            
+            <div class="header-main">
+                <div class="logo">
+                    <h1>Minerva ONLINE SHOP</h1>
+                    <p>Your Health & Beauty Partner</p>
+                </div>
+                
+                <div class="search-bar">
+                    <input type="text" id="searchInput" placeholder="Search for products...">
+                    <button type="button" id="searchBtn"><i class="fas fa-search"></i></button>
+                </div>
+                
+                <div class="header-actions">
+                    <div class="cart-icon" id="cartIcon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count" id="cartCount">0</span>
+                    </div>
+                    <button class="whatsapp-btn" id="whatsappBtn">
+                        <i class="fab fa-whatsapp"></i> WhatsApp Order
+                    </button>
+                </div>
+            </div>
+            
+            <nav class="navigation">
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#products" class="nav-link">Products <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" data-category="digestive"><i class="fas fa-stomach"></i> Digestive System</a></li>
+                            <li><a href="#" data-category="circulatory"><i class="fas fa-heartbeat"></i> Circulatory System</a></li>
+                            <li><a href="#" data-category="reproductive"><i class="fas fa-venus-mars"></i> Reproductive System</a></li>
+                            <li><a href="#" data-category="skin"><i class="fas fa-hand-sparkles"></i> Skin System</a></li>
+                            <li><a href="#" data-category="others"><i class="fas fa-leaf"></i> General Health</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#about" class="nav-link">About Us</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-slider">
+            <div class="hero-slide active">
+                <div class="hero-content">
+                    <h2>Premium Superfoods & Supplements</h2>
+                    <p>Discover our wide range of natural health products, vitamins, and beauty essentials delivered to your doorstep</p>
+                    <button class="cta-btn">Shop Now</button>
+                </div>
+                <div class="hero-image">
+                    <img src="images/hero-1.jpg" alt="Health Products">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-shipping-fast"></i>
+                    <h3>Free Delivery</h3>
+                    <p>Nationwide delivery at the comfort of your home/office</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <h3>Pay on Delivery</h3>
+                    <p>Pay on delivery within Nairobi for your convenience</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Quality Products</h3>
+                    <p>Premium quality vitamins, minerals, and natural products</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fab fa-whatsapp"></i>
+                    <h3>WhatsApp Orders</h3>
+                    <p>Easy ordering through WhatsApp for quick service</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories" id="products">
+        <div class="container">
+            <h2 class="section-title">Shop by Category</h2>
+            <div class="categories-grid">
+                <div class="category-card" data-category="digestive">
+                    <div class="category-icon">
+                        <i class="fas fa-stomach"></i>
+                    </div>
+                    <h3><i class="fas fa-stomach"></i> Digestive System</h3>
+                    <p>Products for digestive health and gut wellness</p>
+                </div>
+                <div class="category-card" data-category="circulatory">
+                    <div class="category-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3><i class="fas fa-heartbeat"></i> Circulatory System</h3>
+                    <p>Heart health and circulation support</p>
+                </div>
+                <div class="category-card" data-category="reproductive">
+                    <div class="category-icon">
+                        <i class="fas fa-venus-mars"></i>
+                    </div>
+                    <h3><i class="fas fa-venus-mars"></i> Reproductive System</h3>
+                    <p>Hormonal balance and reproductive health</p>
+                </div>
+                <div class="category-card" data-category="skin">
+                    <div class="category-icon">
+                        <i class="fas fa-hand-sparkles"></i>
+                    </div>
+                    <h3><i class="fas fa-hand-sparkles"></i> Skin System</h3>
+                    <p>Natural skincare and beauty products</p>
+                </div>
+                <div class="category-card" data-category="others">
+                    <div class="category-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3><i class="fas fa-leaf"></i> General Health & Nutrition</h3>
+                    <p>Overall wellness and nutritional support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section">
+        <div class="container">
+            <h2 class="section-title">Featured Products</h2>
+            <div class="products-filter">
+                <button class="filter-btn active" data-filter="all"><i class="fas fa-th-large"></i> All Products</button>
+                <button class="filter-btn" data-filter="digestive"><i class="fas fa-stomach"></i> Digestive</button>
+                <button class="filter-btn" data-filter="circulatory"><i class="fas fa-heartbeat"></i> Circulatory</button>
+                <button class="filter-btn" data-filter="reproductive"><i class="fas fa-venus-mars"></i> Reproductive</button>
+                <button class="filter-btn" data-filter="skin"><i class="fas fa-hand-sparkles"></i> Skin</button>
+                <button class="filter-btn" data-filter="others"><i class="fas fa-leaf"></i> General Health</button>
+            </div>
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Minerva Online Shop</h2>
+                    <p>We are a premier beauty & health shop, dedicated to supplying our clients with a comprehensive range of vitamins, minerals, nuts, seeds, supplements, herbal products, and natural beauty products.</p>
+                    <p>Located in Nairobi CBD on Accra Road, Nyota Building, we pride ourselves on delivering quality products nationwide with the convenience of home and office delivery.</p>
+                    <ul class="about-features">
+                        <li><i class="fas fa-check"></i> Wide range of health and beauty products</li>
+                        <li><i class="fas fa-check"></i> Nationwide delivery service</li>
+                        <li><i class="fas fa-check"></i> Pay on delivery in Nairobi</li>
+                        <li><i class="fas fa-check"></i> Quality guaranteed products</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="images/about-us.jpg" alt="About Minerva Shop">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Virtual</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>0726064506</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>minervahealthke@outlook.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h3>WhatsApp</h3>
+                            <p>0726064506</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Minerva Online Shop</h3>
+                    <p>Your trusted partner for health, beauty, and wellness products. Quality guaranteed with nationwide delivery.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="#" data-category="digestive"><i class="fas fa-stomach"></i> Digestive System</a></li>
+                        <li><a href="#" data-category="circulatory"><i class="fas fa-heartbeat"></i> Circulatory System</a></li>
+                        <li><a href="#" data-category="skin"><i class="fas fa-hand-sparkles"></i> Skin System</a></li>
+                        <li><a href="#" data-category="others"><i class="fas fa-leaf"></i> General Health</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Virtual</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>0726064506</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>minervahealthke@outlook.com</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Minerva Online Shop. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Shopping Cart Modal -->
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h3>Shopping Cart</h3>
+                <button class="close-cart" id="closeCart">&times;</button>
+            </div>
+            <div class="cart-items" id="cartItems">
+                <!-- Cart items will be loaded dynamically -->
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <strong>Total: KSh <span id="cartTotal">0</span></strong>
+                </div>
+                <button class="checkout-btn" id="checkoutBtn">Proceed to WhatsApp Order</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/products.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

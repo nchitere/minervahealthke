@@ -1,4 +1,4 @@
-# Kalonji Online Shop - Website Clone
+# Minerva Online Shop - Website
 
 A modern, responsive e-commerce website clone of Kalonji Online Shop, built with HTML5, CSS3, and JavaScript.
 
